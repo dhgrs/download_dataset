@@ -13,3 +13,16 @@ Download datasets for machine learning.
 python download_CelebA.py <directory>
 ```
 If you don't set the directory, the current directory will be set.
+
+## download_EMNIST.py
+### require
+
+- python3
+- unzip
+
+### download
+
+```
+python download_EMNIST.py <directory>
+```
+If you don't set the directory, the current directory will be set.
