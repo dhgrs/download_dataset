@@ -161,14 +161,16 @@ if __name__ == "__main__":
 
     # unzip
     try:
-        subprocess.call(['7z', 'x', '-o' + Img_img_celeba.replace(sys.argv[1], ''),
-                         os.path.join(Img_img_celeba, 'img_celeba.7z.*')])
+        subprocess.call([
+            '7z', 'x', '-o' + os.path.relpath(os.path.join(root, 'Img')),
+            os.path.join(Img_img_celeba, 'img_celeba.7z.*')])
     except:
         print('can\'t unzip img_celeba')
 
     try:
-        subprocess.call(['7z', 'x', '-o' + Img_img_align_celeba_png.replace(sys.argv[1], ''),
-                         os.path.join(Img_img_align_celeba_png,
-                                      'img_align_celeba_png.7z.*')])
+        subprocess.call([
+            '7z', 'x', '-o' + os.path.relpath(os.path.join(root, 'Img')),
+            os.path.join(Img_img_align_celeba_png,
+                         'img_align_celeba_png.7z.*')])
     except:
-        print('can\'t unzip img_celeba_png')
+        print('can\'t unzip img_align_celeba_png')
