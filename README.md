@@ -5,6 +5,7 @@ Download datasets for machine learning.
 ### require
 
 - python3
+  - requests
 - p7zip-full
 
 ### download
