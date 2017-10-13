@@ -19,6 +19,7 @@ If you don't set the directory, the current directory will be set.
 ### require
 
 - python3
+  - requests
 - unzip
 
 ### download
