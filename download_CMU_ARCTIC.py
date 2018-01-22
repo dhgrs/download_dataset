@@ -61,9 +61,9 @@ if __name__ == "__main__":
 
     # unzip
     for i, url in enumerate(urls):
-        print('{}/{} downloading {}'.format(i + 1, len(urls), url))
+        print('{}/{} unzipping {}'.format(i + 1, len(urls), url))
         try:
             subprocess.call([
-                'tar', '-xv', os.path.join(root, url), '-d', root])
+                'tar', 'jxvf', os.path.join(root, url), '-C', root])
         except:
-            print('can\'t unzip gzip.zip')
+            print('can\'t unzip {}'.format(url))
