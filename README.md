@@ -28,3 +28,17 @@ If you don't set the directory, the current directory will be set.
 python download_EMNIST.py <directory>
 ```
 If you don't set the directory, the current directory will be set.
+
+
+## download_CMU_ARCTIC.py
+### require
+
+- python3
+  - requests
+
+### download
+
+```
+python download_CMU_ARCTIC.py <directory>
+```
+If you don't set the directory, the current directory will be set.
