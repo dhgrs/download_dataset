@@ -67,3 +67,15 @@ python download_voice_statistics.py <directory>
 ```
 python download_VCTK.py <directory>
 ```
+
+## download_LibriSpeech.py
+### require
+
+- python3
+  - requests
+
+### download
+
+```
+python download_LibriSpeech.py <directory>
+```
