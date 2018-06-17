@@ -79,3 +79,15 @@ python download_VCTK.py <directory>
 ```
 python download_LibriSpeech.py <directory>
 ```
+
+## download_LJSpeech.py
+### require
+
+- python3
+  - requests
+
+### download
+
+```
+python download_LJSpeech.py <directory>
+```
