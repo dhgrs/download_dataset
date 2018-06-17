@@ -54,3 +54,16 @@ If you don't set the directory, the current directory will be set.
 ```
 python download_voice_statistics.py <directory>
 ```
+
+## download_VCTK.py
+### require
+
+- python3
+  - requests
+- unzip
+
+### download
+
+```
+python download_VCTK.py <directory>
+```
