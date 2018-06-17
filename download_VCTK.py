@@ -26,6 +26,6 @@ if not os.path.exists(path):
 # unzip
 print('unzipping')
 try:
-    subprocess.call(['unzip', path], '-d', root, 'VCTK-Corpus')
+    subprocess.call(['unzip', path, '-d', root])
 except:
     print('can\'t unzip {}'.format(url))
