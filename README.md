@@ -91,3 +91,15 @@ python download_LibriSpeech.py <directory>
 ```
 python download_LJSpeech.py <directory>
 ```
+
+## download_JVS.py
+### require
+
+- python3
+- unzip
+
+### download
+
+```
+python donwload_JVS.py <directory>
+```
