@@ -96,10 +96,11 @@ python download_LJSpeech.py <directory>
 ### require
 
 - python3
+  - requests
 - unzip
 
 ### download
 
 ```
-python donwload_JVS.py <directory>
+python download_JVS.py <directory>
 ```
